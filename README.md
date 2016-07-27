@@ -28,3 +28,14 @@ C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/new_allocator.h:1
 C:\Users\chai\AppData\Local\Temp\go-link-802100695\000000.o:C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/new_allocator.h:110: first defined here
 collect2.exe: error: ld returned 1 exit status
 ```
+
+```
+C:\go\gopkg\src\github.com\chai2010\cgo-bug-20160727>gcc -v
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-5.1.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 5.1.0 (tdm64-1)
+```
